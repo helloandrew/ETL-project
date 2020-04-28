@@ -1,0 +1,10 @@
+create table state_covid_df (
+	id int primary key,
+	state text,
+	population int,
+	average_household_income int,
+	confirmed_cases int,
+	death int
+);
+
+select * from state_covid_df
